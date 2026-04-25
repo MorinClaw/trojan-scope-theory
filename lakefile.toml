@@ -1,0 +1,10 @@
+name = "trojan_scope_theory"
+version = "0.1.0"
+defaultTargets = ["TrojanScopeTheory"]
+
+[[lean_lib]]
+name = "TrojanScopeTheory"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
